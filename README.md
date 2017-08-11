@@ -1,16 +1,16 @@
 # django
 django
 
-##静态文件部署问题
+## 静态文件部署问题
 
-#url.py
+# url.py
   from django.contrib.staticfiles.urls import staticfiles_urlpatterns
   urlpatterns += staticfiles_urlpatterns()
   
-#settings.py
+# settings.py
   STATIC_DIRS = (
       #your dev static file path
   )
   
-#templates
+# templates
   {{ STATIC_URL }}
